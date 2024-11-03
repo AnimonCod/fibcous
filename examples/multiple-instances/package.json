@@ -1,0 +1,17 @@
+{
+  "name": "@fibcous-example/multiple-instances",
+  "version": "0.0.0",
+  "type": "module",
+  "dependencies": {
+    "@fibcous/core": "workspace:*",
+    "@fibcous/dashboard": "workspace:*",
+    "@fibcous/golden-retriever": "workspace:*"
+  },
+  "devDependencies": {
+    "vite": "^4.0.0"
+  },
+  "private": true,
+  "scripts": {
+    "start": "vite"
+  }
+}
