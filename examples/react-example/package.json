@@ -1,0 +1,27 @@
+{
+  "name": "@fibcous-example/react",
+  "version": "0.0.0",
+  "type": "module",
+  "dependencies": {
+    "@fibcous/core": "workspace:*",
+    "@fibcous/dashboard": "workspace:*",
+    "@fibcous/drag-drop": "workspace:*",
+    "@fibcous/file-input": "workspace:*",
+    "@fibcous/google-drive": "workspace:*",
+    "@fibcous/progress-bar": "workspace:*",
+    "@fibcous/react": "workspace:*",
+    "@fibcous/tus": "workspace:*",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0"
+  },
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview --port 5050"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^2.0.0",
+    "vite": "^4.0.0"
+  }
+}
